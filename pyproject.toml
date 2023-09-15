@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-sample-api"
+version = "0.1.0"
+description = ""
+authors = ["Tom Goren <tom@tomgoren.com>"]
+readme = "README.md"
+packages = [{include = "python_sample_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
