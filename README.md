@@ -22,9 +22,14 @@ Enter the web app directory
 cd python_sample_api
 ```
 
-Run:
+Run :
 ```
 FLASK_APP=main.py poetry run flask run
+```
+
+If on Windows, run this instead:
+```
+poetry run flask --app main.py run
 ```
 
 ### Test that things work
