@@ -22,7 +22,7 @@ Enter the web app directory
 cd python_sample_api
 ```
 
-Run :
+Run:
 ```
 FLASK_APP=main.py poetry run flask run
 ```
