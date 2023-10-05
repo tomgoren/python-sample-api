@@ -38,3 +38,8 @@ From a new terminal run (assumes you have `curl` installed):
 ```
 curl localhost:5000
 ```
+
+If on Windows, run this instead:
+```
+curl http://localhost:5000
+```
